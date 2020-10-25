@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="mendix.groupboxnative.GroupboxNative" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Native"
+  xmlns="http://www.mendix.com/widget/1.0/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+  <name>Groupbox Native</name>
+  <description>Animated native groupbox</description>
+  <icon/>
+  <properties>
+    <propertyGroup caption="General">
+      <property key="headerClosed" type="widgets" required="true">
+        <caption>Header (Closed)</caption>
+        <description></description>
+      </property>
+      <property key="headerOpen" type="widgets" required="true">
+        <caption>Header (Open)</caption>
+        <description></description>
+      </property>
+      <property key="body" type="widgets" required="true">
+        <caption>Body</caption>
+        <description></description>
+      </property>
+
+    </propertyGroup>
+  </properties>
+</widget>
